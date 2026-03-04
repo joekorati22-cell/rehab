@@ -14,19 +14,16 @@ const Stats = () => {
                     </p>
                     <div className="stat-avatars">
                         <img
-                            src="/images/avatar1.jpg"
+                            src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100"
                             alt="User"
-                            onError={(e) => e.target.src = 'https://via.placeholder.com/32/4CAF50/ffffff?text=1'}
                         />
                         <img
-                            src="/images/avatar2.jpg"
+                            src="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=100"
                             alt="User"
-                            onError={(e) => e.target.src = 'https://via.placeholder.com/32/2196F3/ffffff?text=2'}
                         />
                         <img
-                            src="/images/avatar3.jpg"
+                            src="https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=100"
                             alt="User"
-                            onError={(e) => e.target.src = 'https://via.placeholder.com/32/FF9800/ffffff?text=3'}
                         />
                         <span className="more-count">+10k</span>
                     </div>
@@ -67,9 +64,8 @@ const Stats = () => {
                     <p className="stat-label">SPECIALISTS</p>
                     <div className="specialist-image">
                         <img
-                            src="/images/specialist.jpg"
+                            src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=600"
                             alt="Specialist"
-                            onError={(e) => e.target.src = 'https://via.placeholder.com/300x200/1a5f5a/ffffff?text=Specialist'}
                         />
                     </div>
                 </div>

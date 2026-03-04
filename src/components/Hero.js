@@ -35,12 +35,9 @@ const Hero = () => {
                 {/* Left Side - Image */}
                 <div className="hero-image">
                     <img
-                        src="/images/runner.png"
+                        src="https://images.pexels.com/photos/7592400/pexels-photo-7592400.jpeg?auto=compress&cs=tinysrgb&w=600"
                         alt="Physiotherapy"
                         className="runner-image"
-                        onError={(e) => {
-                            e.target.src = 'https://via.placeholder.com/500x600/1a5f5a/ffffff?text=Runner+Image';
-                        }}
                     />
 
                     {/* Hotspots */}
@@ -68,19 +65,16 @@ const Hero = () => {
                     <div className="social-proof">
                         <div className="avatars">
                             <img
-                                src="/images/avatar1.jpg"
+                                src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100"
                                 alt="User"
-                                onError={(e) => e.target.src = 'https://via.placeholder.com/28/4CAF50/ffffff?text=1'}
                             />
                             <img
-                                src="/images/avatar2.jpg"
+                                src="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=100"
                                 alt="User"
-                                onError={(e) => e.target.src = 'https://via.placeholder.com/28/2196F3/ffffff?text=2'}
                             />
                             <img
-                                src="/images/avatar3.jpg"
+                                src="https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=100"
                                 alt="User"
-                                onError={(e) => e.target.src = 'https://via.placeholder.com/28/FF9800/ffffff?text=3'}
                             />
                         </div>
                         <div className="rating">

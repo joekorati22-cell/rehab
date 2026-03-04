@@ -7,25 +7,25 @@ const Services = () => {
             id: 1,
             category: 'Rehabilitation',
             title: 'Knee & Ankle Care',
-            image: '/images/knee-care.jpg'
+            image: 'https://images.pexels.com/photos/5473183/pexels-photo-5473183.jpeg?auto=compress&cs=tinysrgb&w=800'
         },
         {
             id: 2,
             category: 'Sports',
             title: 'Shoulder & Elbow Rehab',
-            image: '/images/shoulder-rehab.jpg'
+            image: 'https://images.pexels.com/photos/6975391/pexels-photo-6975391.jpeg?auto=compress&cs=tinysrgb&w=800'
         },
         {
             id: 3,
             category: 'Geriatric',
             title: 'Geriatric Physiotherapy',
-            image: '/images/geriatric.jpg'
+            image: 'https://images.pexels.com/photos/7551658/pexels-photo-7551658.jpeg?auto=compress&cs=tinysrgb&w=800'
         },
         {
             id: 4,
             category: 'Sports',
             title: 'Post-Operative Rehabilitation',
-            image: '/images/post-operative.jpg'
+            image: 'https://images.pexels.com/photos/6975459/pexels-photo-6975459.jpeg?auto=compress&cs=tinysrgb&w=800'
         }
     ];
 
@@ -44,7 +44,6 @@ const Services = () => {
                                 <img
                                     src={service.image}
                                     alt={service.title}
-                                    onError={(e) => e.target.src = `https://via.placeholder.com/400x500/1a5f5a/ffffff?text=${service.title.replace(/ /g, '+')}`}
                                 />
                                 <div className="service-overlay">
                                     <span className="service-category">{service.category}</span>

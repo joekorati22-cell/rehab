@@ -66,10 +66,9 @@ const WhyChoose = () => {
 
                 <div className="why-choose-image-wrapper">
                     <img
-                        src="/images/massage-gun.jpg"
+                        src="https://images.pexels.com/photos/6975472/pexels-photo-6975472.jpeg?auto=compress&cs=tinysrgb&w=1000"
                         alt="Therapy Equipment"
                         className="why-choose-image"
-                        onError={(e) => e.target.src = 'https://via.placeholder.com/500x500/1a5f5a/ffffff?text=Therapy+Equipment'}
                     />
                     <div className="promise-badge">
                         <h4 className="promise-title">Promise of Care</h4>

@@ -7,7 +7,7 @@ const Process = () => {
             number: '01',
             title: 'Comprehensive Assessment',
             description: 'We begin with a thorough evaluation of your condition, medical history, and physical capabilities. Our experts use advanced diagnostic techniques to identify the root cause of your pain or mobility issues, ensuring a precise starting point for your recovery.',
-            image: '/images/step-01.jpg',
+            image: 'https://images.pexels.com/photos/7551609/pexels-photo-7551609.jpeg?auto=compress&cs=tinysrgb&w=1000',
             badge: 'Step 01',
             align: 'left'
         },
@@ -15,7 +15,7 @@ const Process = () => {
             number: '02',
             title: 'Personalized Recovery Plan',
             description: 'Based on your assessment, we design a customized treatment plan tailored to your specific needs and goals. This comprehensive roadmap outlines the therapies, exercises, and milestones that will guide your journey to full recovery.',
-            image: '/images/step-02.jpg',
+            image: 'https://images.pexels.com/photos/6975474/pexels-photo-6975474.jpeg?auto=compress&cs=tinysrgb&w=1000',
             badge: 'Step 02',
             align: 'right'
         },
@@ -23,7 +23,7 @@ const Process = () => {
             number: '03',
             title: 'Expert Treatment & Therapy',
             description: 'Experience advanced manual therapy and evidence-based exercises delivered by our certified specialists. We utilize state-of-the-art techniques such as dry needling, joint mobilization, and specialized strengthening to accelerate your healing and restore function.',
-            image: '/images/step-03.jpg',
+            image: 'https://images.pexels.com/photos/7551674/pexels-photo-7551674.jpeg?auto=compress&cs=tinysrgb&w=1000',
             badge: 'Step 03',
             align: 'left'
         },
@@ -31,7 +31,7 @@ const Process = () => {
             number: '04',
             title: 'Progress Monitoring & Education',
             description: 'Recovery is an ongoing journey. We provide continuous evaluation to adjust your plan as you improve. Additionally, we empower you with home exercise programs and ergonomic education to prevent re-injury and maintain long-term wellness.',
-            image: '/images/step-04.jpg',
+            image: 'https://images.pexels.com/photos/7551662/pexels-photo-7551662.jpeg?auto=compress&cs=tinysrgb&w=1000',
             badge: 'Step 04',
             align: 'right'
         }
@@ -69,7 +69,6 @@ const Process = () => {
                                 src={step.image}
                                 alt={step.title}
                                 className="step-image"
-                                onError={(e) => e.target.src = `https://via.placeholder.com/500x400/1a5f5a/ffffff?text=${step.title.replace(/ /g, '+')}`}
                             />
                         </div>
                     </div>
